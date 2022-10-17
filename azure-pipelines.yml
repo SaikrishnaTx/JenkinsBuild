@@ -10,10 +10,10 @@
 # https://aka.ms/yaml
 
 trigger:
-- main
+-  main
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: saikrishna
 
 steps:
 - script: echo Hello, world!
